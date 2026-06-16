@@ -1,0 +1,14 @@
+Random Profession#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+
+    string jobs[] = {
+        "Programmer","Doctor","Pilot","Designer"
+    };
+
+    cout << jobs[rand()%4];
+
+    return 0;
+}
